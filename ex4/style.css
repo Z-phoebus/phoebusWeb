@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* padding and height are not the same thing*/
+html {
+        background-color:#171717;
+
+}
+
+header {
+		background: #000;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		text-align: center;
+}
+
+nav a {
+		padding: 1em;
+		font-weight: bold;
+		background-color: #fff;
+		text-decoration: none;
+		color: #000;
+}
+
+
+#container {
+		height:55vw;
+		width: 100vw;
+		margin-right: auto;
+		margin-left: auto;
+		box-shadow:inset -50px 70px 500px 100px #000;
+		position:relative;
+
+}
+
+#column {
+		padding:1.4%;
+		height:95%;
+		width: 15%;
+		color:white;
+		background-color: #BF4040;
+		background-color: hsla(0, 90%, 20% ,0.8);
+		position:absolute;
+		right: 0; /* move it far to the right*/
+}
+
+#column p{
+		font-size:1.7vw;
+		}
+
+#container img {
+		width:100%; /* 100% of the container */
+		height:auto%;/* this auto will keep the original proportions of the image */
+		position:absolute; /* z-indez won't work if position:; isn't set*/
+		z-index: -2;
+}
+
+article {
+        background-color:#171717;
+		height:auto;
+		width:auto;
+		
+}
+
+article h1 {
+		padding:2em;
+        text-align:center;
+		color:#fff;
+}
+
+.box {
+		border-radius:1em;
+		margin:2em;
+		background-color: gray;
+		display:flex;
+		flex-wrap:wrap;
+		align-items:center;
+		justify-content:center;
+		padding:1em;
+		
+}
+
+article p {
+		color: #fff;
+        min-height:10em;   
+		min-width:20em;
+		max-height:10em;   
+		max-width:20em;
+        background-color:#171717;
+		padding:0.5em;
+		margin:1em;
+		box-shadow: 0px 0px 10px 5px #3D3D3D;
+}
+
+#page {
+        background-color:gray;
+		padding:1.5em;
+		margin:1em;
+		margin:2em;
+		border-radius:1em;
+		
+}
